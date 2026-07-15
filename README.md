@@ -4,6 +4,8 @@
 - [Installation](#installation)
 - [Documentation](#documentation)
 
+<img align="left" src="/logo.svg" width="48">
+  
 # Meantonal
 
 Meantonal is a specification for representing pitch information in Western music, and a suite of tools for operating on this information. It's a small, focused library that aims to empower developers to build musical apps more easily.
