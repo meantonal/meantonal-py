@@ -1,0 +1,57 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "meantonal"
+version = "0.1.0"
+description = "An elegant library for representing pitch in Western music."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Hex" }]
+requires-python = ">=3.10"
+keywords = [
+    "music",
+    "scale",
+    "midi",
+    "music-theory",
+    "music-notation",
+    "music-library",
+    "interval",
+    "chord",
+    "transpose",
+    "tonality",
+    "key",
+    "mode",
+    "analysis",
+    "composition",
+    "music-generation",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Multimedia :: Sound/Audio",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://meantonal.org"
+Documentation = "https://meantonal.org/python"
+Repository = "https://github.com/meantonal/meantonal-python"
+Issues = "https://github.com/meantonal/meantonal-python/issues"
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/meantonal"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
