@@ -4,7 +4,7 @@
 - [Installation](#installation)
 - [Documentation](#documentation)
 
-<img align="left" src="/logo.svg" width="48">
+<img align="left" src="https://meantonal.org/logo.svg" width="48">
   
 # Meantonal
 
